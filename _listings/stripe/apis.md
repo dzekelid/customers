@@ -33,7 +33,7 @@ apis:
   tags: Customers
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/customers/master/_listings/stripe/customers-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/customers/master/_listings/stripe/customers-post.md
 x-common:
 - type: x-base
   url: https://api.stripe.com/
