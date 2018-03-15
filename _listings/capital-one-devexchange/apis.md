@@ -9,8 +9,8 @@ x-kinRank: "9"
 x-alexaRank: ""
 tags:
 - US Bank
-created: "2018-03-13"
-modified: "2018-03-13"
+created: "2018-03-15"
+modified: "2018-03-15"
 url: https://raw.githubusercontent.com/streamdata-gallery/customers/master/_listings/capital-one-devexchange/apis.yaml
 specificationVersion: "0.14"
 apis:
@@ -22,7 +22,7 @@ apis:
   tags: Customers
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/customers/master/_listings/capital-one-devexchange/customers-id-bills-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/customers/master/_listings/capital-one-devexchange/customers-id-accounts-post.md
 x-common:
 - type: x-authentication
   url: https://developer.capitalone.com/platform-documentation/authorization-with-oauth-20/
