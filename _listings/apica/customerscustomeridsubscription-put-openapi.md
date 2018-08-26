@@ -3,7 +3,7 @@ swagger: "2.0"
 x-collection-name: Apica
 x-complete: 0
 info:
-  title: Customers API Customers {customerId} Subscription
+  title: Customers API Customers Subscription
   version: 1.0.0
   description: Updates customer's subscription.
 schemes:
@@ -15,7 +15,7 @@ consumes:
 paths:
   '/customers/{customerId} ':
     ' get ':
-      summary: Customers {customerId}
+      summary: Customers
       description: Returns subcustomer by subcustomer's ID.
       operationId: -customers-customerid-
       x-api-path-slug: customerscustomerid-get
@@ -37,7 +37,7 @@ paths:
       - Customers
   '/customers/{customerId}/subscription ':
     ' put ':
-      summary: Customers {customerId} Subscription
+      summary: Customers Subscription
       description: Updates customer's subscription.
       operationId: -customers-customerid-subscription-
       x-api-path-slug: customerscustomeridsubscription-put

@@ -3,7 +3,7 @@ swagger: "2.0"
 x-collection-name: Apica
 x-complete: 1
 info:
-  title: Customers API
+  title: Scenarios API
   version: 1.0.0
 schemes:
 - http
@@ -11,38 +11,4 @@ produces:
 - application/json
 consumes:
 - application/json
-paths:
-  '/customers/{customerId} ':
-    ' get ':
-      summary: Customers {customerId}
-      description: Returns subcustomer by subcustomer's ID.
-      operationId: -customers-customerid-
-      x-api-path-slug: customerscustomerid-get
-      responses:
-        200:
-          description: OK
-      tags:
-      - Customers
-  '/customers ':
-    ' post ':
-      summary: Customers
-      description: Creates customer.
-      operationId: -customers-
-      x-api-path-slug: customers-post
-      responses:
-        200:
-          description: OK
-      tags:
-      - Customers
-  '/customers/{customerId}/subscription ':
-    ' put ':
-      summary: Customers {customerId} Subscription
-      description: Updates customer's subscription.
-      operationId: -customers-customerid-subscription-
-      x-api-path-slug: customerscustomeridsubscription-put
-      responses:
-        200:
-          description: OK
-      tags:
-      - Customers
 ---

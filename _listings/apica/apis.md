@@ -7,60 +7,55 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19004-apic
 x-kinRank: "7"
 x-alexaRank: "876355"
 tags: Customers
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-26"
+modified: "2018-08-26"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/customers/master/_listings/apica/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Customers API Customers {customerId}
-  x-api-slug: customers-api
+- name: Customers API - Customers
+  x-api-slug: customerscustomerid-get
   description: Returns subcustomer by subcustomer's ID.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19004-apica.jpg
   humanURL: https://www.apicasystem.com
-  baseURL: '://///customers/{customerId} '
-  tags: Customers
+  baseURL: :///
+  tags: Monitoring, Testing, Performance, SaaS, Technology, Enterprise, API Provider,
+    Profiles, Service API, Relative Data, Relative StreamRank, Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/customers/master/_listings/apica/customerscustomerid-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/customers/master/_listings/apica/customerscustomerid-get-openapi.md
-- name: Customers API Customers
-  x-api-slug: customers-api
+- name: Customers API - Customers
+  x-api-slug: customers-post
   description: Creates customer.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19004-apica.jpg
   humanURL: https://www.apicasystem.com
-  baseURL: '://///customers '
-  tags: Customers
+  baseURL: :///
+  tags: Monitoring, Testing, Performance, SaaS, Technology, Enterprise, API Provider,
+    Profiles, Service API, Relative Data, Relative StreamRank, Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/customers/master/_listings/apica/customers-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/customers/master/_listings/apica/customers-post-openapi.md
-- name: Customers API Customers {customerId} Subscription
-  x-api-slug: customers-api
+- name: Customers API - Customers Subscription
+  x-api-slug: customerscustomeridsubscription-put
   description: Updates customer's subscription.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19004-apica.jpg
   humanURL: https://www.apicasystem.com
-  baseURL: '://///customers/{customerId}/subscription '
-  tags: Customers
+  baseURL: :///
+  tags: Monitoring, Testing, Performance, SaaS, Technology, Enterprise, API Provider,
+    Profiles, Service API, Relative Data, Relative StreamRank, Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/customers/master/_listings/apica/customerscustomeridsubscription-put-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/customers/master/_listings/apica/customerscustomeridsubscription-put-openapi.md
-- name: Customers API
-  x-api-slug: customers-api
-  description: Apicas performance testing and monitoring solutions provide critical
-    peak performance data and 24/7 monitoring of applications and sites around the
-    world.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19004-apica.jpg
-  humanURL: https://www.apicasystem.com
-  baseURL: :///
-  tags: Customers
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/customers/master/_listings/apica/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://apica.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://apica.stack.network
 - type: x-blog
   url: https://www.apicasystem.com/blog/
 - type: x-blog-rss

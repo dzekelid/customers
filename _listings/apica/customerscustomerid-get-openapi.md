@@ -3,7 +3,7 @@ swagger: "2.0"
 x-collection-name: Apica
 x-complete: 0
 info:
-  title: Customers API Customers {customerId}
+  title: Customers API Customers
   version: 1.0.0
   description: Returns subcustomer by subcustomer's ID.
 schemes:
@@ -15,7 +15,7 @@ consumes:
 paths:
   '/customers/{customerId} ':
     ' get ':
-      summary: Customers {customerId}
+      summary: Customers
       description: Returns subcustomer by subcustomer's ID.
       operationId: -customers-customerid-
       x-api-path-slug: customerscustomerid-get

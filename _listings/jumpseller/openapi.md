@@ -195,4 +195,103 @@ paths:
       - Customers
       - Id
       - Json
+  /customer_categories.json:
+    get:
+      summary: Get Customer Categories
+      description: Retrieve all customer categories..
+      operationId: getCustomerCategories.json
+      x-api-path-slug: customer-categories-json-get
+      parameters:
+      - in: query
+        name: No Name
+      responses:
+        200:
+          description: OK
+      tags:
+      - Customer
+      - Categories
+      - Json
+    post:
+      summary: Post Customer Categories
+      description: Create a new customercategory..
+      operationId: postCustomerCategories.json
+      x-api-path-slug: customer-categories-json-post
+      parameters:
+      - in: body
+        name: body
+        description: CustomerCategory parameters
+        schema:
+          $ref: '#/definitions/holder'
+      - in: query
+        name: No Name
+      responses:
+        200:
+          description: OK
+      tags:
+      - Customer
+      - Categories
+      - Json
+  /customer_categories/{id}.json:
+    delete:
+      summary: Delete Customer Categories
+      description: Delete an existing customercategory..
+      operationId: deleteCustomerCategories.json
+      x-api-path-slug: customer-categoriesid-json-delete
+      parameters:
+      - in: path
+        name: id
+        description: Id of the CustomerCategory
+      - in: query
+        name: No Name
+      responses:
+        200:
+          description: OK
+      tags:
+      - Customer
+      - Categories
+      - Id
+      - Json
+    get:
+      summary: Get Customer Categories
+      description: Retrieve a single customercategory..
+      operationId: getCustomerCategories.json
+      x-api-path-slug: customer-categoriesid-json-get
+      parameters:
+      - in: path
+        name: id
+        description: Id of the CustomerCategory
+      - in: query
+        name: No Name
+      responses:
+        200:
+          description: OK
+      tags:
+      - Customer
+      - Categories
+      - Id
+      - Json
+    put:
+      summary: Put Customer Categories
+      description: Update a customercategory..
+      operationId: putCustomerCategories.json
+      x-api-path-slug: customer-categoriesid-json-put
+      parameters:
+      - in: body
+        name: body
+        description: CustomerCategory parameters
+        schema:
+          $ref: '#/definitions/holder'
+      - in: path
+        name: id
+        description: Id of the CustomerCategory
+      - in: query
+        name: No Name
+      responses:
+        200:
+          description: OK
+      tags:
+      - Customer
+      - Categories
+      - Id
+      - Json
 ---

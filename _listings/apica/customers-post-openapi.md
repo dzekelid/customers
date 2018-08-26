@@ -15,7 +15,7 @@ consumes:
 paths:
   '/customers/{customerId} ':
     ' get ':
-      summary: Customers {customerId}
+      summary: Customers
       description: Returns subcustomer by subcustomer's ID.
       operationId: -customers-customerid-
       x-api-path-slug: customerscustomerid-get

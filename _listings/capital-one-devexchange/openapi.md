@@ -138,4 +138,22 @@ paths:
       - Customers
       - ""
       - Bills
+  /accounts/{id}/customer:
+    get:
+      summary: Get customer that owns the specified account
+      description: Returns the customer that the account belongs to.
+      operationId: returns-the-customer-that-the-account-belongs-to
+      x-api-path-slug: accountsidcustomer-get
+      parameters:
+      - in: path
+        name: id
+        description: ID of customer that account will belong to
+      responses:
+        200:
+          description: OK
+      tags:
+      - Banks
+      - Accounts
+      - ""
+      - Customer
 ---

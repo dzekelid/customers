@@ -131,4 +131,21 @@ paths:
       - Id
       - Backup
       - Instances
+  /v1/authenticate_customer:
+    get:
+      summary: A simple method to test authentication of a customer access token.
+      description: A simple method to test authentication of a customer access token..
+      operationId: getV1AuthenticateCustomer
+      x-api-path-slug: v1authenticate-customer-get
+      parameters:
+      - in: header
+        name: Authorization
+        description: Bearer Access Token granted for customer
+      responses:
+        200:
+          description: OK
+      tags:
+      - V1
+      - Authenticate
+      - Customer
 ---

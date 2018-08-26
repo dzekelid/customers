@@ -8,38 +8,18 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2176-squar
 x-kinRank: "9"
 x-alexaRank: "2433"
 tags: Customers
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-26"
+modified: "2018-08-26"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/customers/master/_listings/square/apis.md
 specificationVersion: "0.14"
-apis:
-- name: Square Connect API ListCustomers
-  x-api-slug: square-connect-api
-  description: Lists a business's customers.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2176-square.jpg
-  humanURL: http://square.com
-  baseURL: https://connect.squareup.com////v2/customers
-  tags: ListCustomers
-  properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/customers/master/_listings/square/v2customers-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/customers/master/_listings/square/v2customers-get-openapi.md
-- name: Square Connect API
-  x-api-slug: square-connect-api
-  description: Square helps millions of sellers run their business- from secure credit
-    card processing to point of sale solutions. Get paid faster with Square and sign
-    up today!
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2176-square.jpg
-  humanURL: http://square.com
-  baseURL: https://connect.squareup.com//
-  tags: Customers
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/customers/master/_listings/square/openapi.md
+apis: []
 x-common:
 - type: x-website
   url: http://square.com
+- type: x-api-gallery
+  url: http://spreaker.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://square.stack.network
 - type: x-base
   url: https://connect.squareup.com
 - type: x-crunchbase
