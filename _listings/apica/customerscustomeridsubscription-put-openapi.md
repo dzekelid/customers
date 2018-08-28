@@ -6,12 +6,14 @@ info:
   title: Customers API Customers Subscription
   version: 1.0.0
   description: Updates customer's subscription.
+host: api.pingdom.com
 schemes:
 - http
 produces:
 - application/json
 consumes:
 - application/json
+basePath: /
 paths:
   '/customers/{customerId} ':
     ' get ':

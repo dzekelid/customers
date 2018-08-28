@@ -8,6 +8,7 @@ info:
     Returns an array containing the names of all data collections for the
     specified customer.
   version: 1.0.0
+host: insights-api.data-services.predix.io
 basePath: /
 schemes:
 - http
@@ -36,6 +37,41 @@ paths:
       - Data
       - Collectionsa
       - Customer
+  /v1/collections/{collectionName}/assets/{assetId}/query:
+    post:
+      summary: Return locations for an asset by query condition for given customer
+        id and collection name.
+      description: |-
+        Returns the locations for an asset by three types of query for a given customer id and collection name.
+        The returned locations are in descending order of time.
+        Three types of query:
+        1. type=latest: The latest n locations will be returned.
+        2. type=timeperiod: Locations within a time period will be returned.
+        3. type=bbox: Locations within a time period and a spatial bounding box will be returned.
+      operationId: returns-the-locations-for-an-asset-by-three-types-of-query-for-a-given-customer-id-and-collection-na
+      x-api-path-slug: v1collectionscollectionnameassetsassetidquery-post
+      parameters:
+      - in: body
+        name: body
+        description: The parameters for the query for asset locations
+        schema:
+          $ref: '#/definitions/holder'
+      - in: query
+        name: No Name
+      responses:
+        200:
+          description: Successful response
+      tags:
+      - Return
+      - Locationsan
+      - Asset
+      - By
+      - Query
+      - Conditiongiven
+      - Customer
+      - Id
+      - Collection
+      - Name
   /v1/maps:
     get:
       summary: List all maps for a customer

@@ -7,11 +7,22 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28252-www-
 x-kinRank: "8"
 x-alexaRank: "1965"
 tags: Customers
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/customers/master/_listings/sap/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: Manufacturing Network Customer APIs - Updates the customer's production option
+  x-api-slug: collaborationroomscollaborationroomidproductiondataoriginalrequirement-put
+  description: "Updates the customer's production option.   \nThe login user must
+    be from the customer."
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28252-www-sap-com.jpg
+  humanURL: https://www.sap.com/index.html
+  baseURL: https://hostname//dim/api
+  tags: SaaS, Technology, Enterprise, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/customers/master/_listings/sap/collaborationroomscollaborationroomidproductiondataoriginalrequirement-put-openapi.md
 x-common:
 - type: x-website
   url: https://www.sap.com/index.html

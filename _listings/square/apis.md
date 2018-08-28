@@ -8,11 +8,107 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2176-squar
 x-kinRank: "9"
 x-alexaRank: "2433"
 tags: Customers
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/customers/master/_listings/square/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: Square Connect - DeleteCustomer
+  x-api-slug: v2customerscustomer-id-delete
+  description: Deletes a customer from a business, along with any linked cards on
+    file.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2176-square.jpg
+  humanURL: http://square.com
+  baseURL: https://connect.squareup.com//
+  tags: Payments, Credit Cards, Commerce, Stack Network, Financial Services, Mobile,
+    Technology, internet, Payments, Relative Data, Service API, Relative StreamRank,
+    Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/customers/master/_listings/square/v2customerscustomer-id-delete-openapi.md
+- name: Square Connect - UpdateCustomer
+  x-api-slug: v2customerscustomer-id-put
+  description: |-
+    Updates the details of an existing customer.
+    The ID of the customer may change if the customer has been merged into another customer.
+
+    You cannot edit a customer's cards on file with this endpoint. To make changes
+    to a card on file, you must delete the existing card on file with the
+    [DeleteCustomerCard](#endpoint-deletecustomercard) endpoint, then create a new one with the
+    [CreateCustomerCard](#endpoint-createcustomercard) endpoint.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2176-square.jpg
+  humanURL: http://square.com
+  baseURL: https://connect.squareup.com//
+  tags: Payments, Credit Cards, Commerce, Stack Network, Financial Services, Mobile,
+    Technology, internet, Payments, Relative Data, Service API, Relative StreamRank,
+    Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/customers/master/_listings/square/v2customerscustomer-id-put-openapi.md
+- name: Square Connect - DeleteCustomer
+  x-api-slug: v2customerscustomer-id-delete
+  description: Deletes a customer from a business, along with any linked cards on
+    file.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2176-square.jpg
+  humanURL: http://square.com
+  baseURL: https://connect.squareup.com//
+  tags: Payments, Credit Cards, Commerce, Stack Network, Financial Services, Mobile,
+    Technology, internet, Payments, Relative Data, Service API, Relative StreamRank,
+    Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/customers/master/_listings/square/v2customerscustomer-id-delete-openapi.md
+- name: Square Connect - UpdateCustomer
+  x-api-slug: v2customerscustomer-id-put
+  description: |-
+    Updates the details of an existing customer.
+    The ID of the customer may change if the customer has been merged into another customer.
+
+    You cannot edit a customer's cards on file with this endpoint. To make changes
+    to a card on file, you must delete the existing card on file with the
+    [DeleteCustomerCard](#endpoint-deletecustomercard) endpoint, then create a new one with the
+    [CreateCustomerCard](#endpoint-createcustomercard) endpoint.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2176-square.jpg
+  humanURL: http://square.com
+  baseURL: https://connect.squareup.com//
+  tags: Payments, Credit Cards, Commerce, Stack Network, Financial Services, Mobile,
+    Technology, internet, Payments, Relative Data, Service API, Relative StreamRank,
+    Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/customers/master/_listings/square/v2customerscustomer-id-put-openapi.md
+- name: Square Connect - UpdateCustomer
+  x-api-slug: v2customerscustomer-id-put
+  description: |-
+    Updates the details of an existing customer.
+    The ID of the customer may change if the customer has been merged into another customer.
+
+    You cannot edit a customer's cards on file with this endpoint. To make changes
+    to a card on file, you must delete the existing card on file with the
+    [DeleteCustomerCard](#endpoint-deletecustomercard) endpoint, then create a new one with the
+    [CreateCustomerCard](#endpoint-createcustomercard) endpoint.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2176-square.jpg
+  humanURL: http://square.com
+  baseURL: https://connect.squareup.com//
+  tags: Payments, Credit Cards, Commerce, Stack Network, Financial Services, Mobile,
+    Technology, internet, Payments, Relative Data, Service API, Relative StreamRank,
+    Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/customers/master/_listings/square/v2customerscustomer-id-put-openapi.md
+- name: Square Connect - DeleteCustomer
+  x-api-slug: v2customerscustomer-id-delete
+  description: Deletes a customer from a business, along with any linked cards on
+    file.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2176-square.jpg
+  humanURL: http://square.com
+  baseURL: https://connect.squareup.com//
+  tags: Payments, Credit Cards, Commerce, Stack Network, Financial Services, Mobile,
+    Technology, internet, Payments, Relative Data, Service API, Relative StreamRank,
+    Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/customers/master/_listings/square/v2customerscustomer-id-delete-openapi.md
 x-common:
 - type: x-website
   url: http://square.com

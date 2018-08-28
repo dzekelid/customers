@@ -11,11 +11,155 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "9"
 x-alexaRank: "0"
 tags: Customers
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/customers/master/_listings/google-apps-admin-sdk/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: Google Apps Admin SDK Merged API - Create Customer
+  x-api-slug: customers-post
+  description: Order a new customer's account.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/nexusae0_icon2.png
+  humanURL: https://developers.google.com/admin-sdk/
+  baseURL: https:///
+  tags: Google APIs, Applications, Documents, Licensing, SDK, Monetization, Reseller,
+    Stack Network, Resellers, API Service Provider, API Provider, Profiles, Relative
+    Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/customers/master/_listings/google-apps-admin-sdk/customers-post-openapi.md
+- name: Google Apps Admin SDK Merged API - Get Customer
+  x-api-slug: customerscustomerid-get
+  description: Get a customer account.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/nexusae0_icon2.png
+  humanURL: https://developers.google.com/admin-sdk/
+  baseURL: https:///
+  tags: Google APIs, Applications, Documents, Licensing, SDK, Monetization, Reseller,
+    Stack Network, Resellers, API Service Provider, API Provider, Profiles, Relative
+    Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/customers/master/_listings/google-apps-admin-sdk/customerscustomerid-get-openapi.md
+- name: Google Apps Admin SDK Merged API - Update Customer
+  x-api-slug: customerscustomerid-patch
+  description: Update a customer account's settings. This method supports patch semantics.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/nexusae0_icon2.png
+  humanURL: https://developers.google.com/admin-sdk/
+  baseURL: https:///
+  tags: Google APIs, Applications, Documents, Licensing, SDK, Monetization, Reseller,
+    Stack Network, Resellers, API Service Provider, API Provider, Profiles, Relative
+    Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/customers/master/_listings/google-apps-admin-sdk/customerscustomerid-patch-openapi.md
+- name: Google Apps Admin SDK Merged API - Update Customer
+  x-api-slug: customerscustomerid-put
+  description: Update a customer account's settings.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/nexusae0_icon2.png
+  humanURL: https://developers.google.com/admin-sdk/
+  baseURL: https:///
+  tags: Google APIs, Applications, Documents, Licensing, SDK, Monetization, Reseller,
+    Stack Network, Resellers, API Service Provider, API Provider, Profiles, Relative
+    Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/customers/master/_listings/google-apps-admin-sdk/customerscustomerid-put-openapi.md
+- name: Google Apps Admin SDK Merged API - Create Customer
+  x-api-slug: customers-post
+  description: Order a new customer's account.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/nexusae0_icon2.png
+  humanURL: https://developers.google.com/admin-sdk/
+  baseURL: https:///
+  tags: Google APIs, Applications, Documents, Licensing, SDK, Monetization, Reseller,
+    Stack Network, Resellers, API Service Provider, API Provider, Profiles, Relative
+    Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/customers/master/_listings/google-apps-admin-sdk/customers-post-openapi.md
+- name: Google Apps Admin SDK Merged API - Get Customer
+  x-api-slug: customerscustomerid-get
+  description: Get a customer account.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/nexusae0_icon2.png
+  humanURL: https://developers.google.com/admin-sdk/
+  baseURL: https:///
+  tags: Google APIs, Applications, Documents, Licensing, SDK, Monetization, Reseller,
+    Stack Network, Resellers, API Service Provider, API Provider, Profiles, Relative
+    Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/customers/master/_listings/google-apps-admin-sdk/customerscustomerid-get-openapi.md
+- name: Google Apps Admin SDK Merged API - Update Customer
+  x-api-slug: customerscustomerid-patch
+  description: Update a customer account's settings. This method supports patch semantics.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/nexusae0_icon2.png
+  humanURL: https://developers.google.com/admin-sdk/
+  baseURL: https:///
+  tags: Google APIs, Applications, Documents, Licensing, SDK, Monetization, Reseller,
+    Stack Network, Resellers, API Service Provider, API Provider, Profiles, Relative
+    Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/customers/master/_listings/google-apps-admin-sdk/customerscustomerid-patch-openapi.md
+- name: Google Apps Admin SDK Merged API - Update Customer
+  x-api-slug: customerscustomerid-put
+  description: Update a customer account's settings.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/nexusae0_icon2.png
+  humanURL: https://developers.google.com/admin-sdk/
+  baseURL: https:///
+  tags: Google APIs, Applications, Documents, Licensing, SDK, Monetization, Reseller,
+    Stack Network, Resellers, API Service Provider, API Provider, Profiles, Relative
+    Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/customers/master/_listings/google-apps-admin-sdk/customerscustomerid-put-openapi.md
+- name: Google Apps Admin SDK Merged API - Update Customer
+  x-api-slug: customerscustomerid-put
+  description: Update a customer account's settings.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/nexusae0_icon2.png
+  humanURL: https://developers.google.com/admin-sdk/
+  baseURL: https:///
+  tags: Google APIs, Applications, Documents, Licensing, SDK, Monetization, Reseller,
+    Stack Network, Resellers, API Service Provider, API Provider, Profiles, Relative
+    Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/customers/master/_listings/google-apps-admin-sdk/customerscustomerid-put-openapi.md
+- name: Google Apps Admin SDK Merged API - Update Customer
+  x-api-slug: customerscustomerid-patch
+  description: Update a customer account's settings. This method supports patch semantics.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/nexusae0_icon2.png
+  humanURL: https://developers.google.com/admin-sdk/
+  baseURL: https:///
+  tags: Google APIs, Applications, Documents, Licensing, SDK, Monetization, Reseller,
+    Stack Network, Resellers, API Service Provider, API Provider, Profiles, Relative
+    Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/customers/master/_listings/google-apps-admin-sdk/customerscustomerid-patch-openapi.md
+- name: Google Apps Admin SDK Merged API - Get Customer
+  x-api-slug: customerscustomerid-get
+  description: Get a customer account.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/nexusae0_icon2.png
+  humanURL: https://developers.google.com/admin-sdk/
+  baseURL: https:///
+  tags: Google APIs, Applications, Documents, Licensing, SDK, Monetization, Reseller,
+    Stack Network, Resellers, API Service Provider, API Provider, Profiles, Relative
+    Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/customers/master/_listings/google-apps-admin-sdk/customerscustomerid-get-openapi.md
+- name: Google Apps Admin SDK Merged API - Create Customer
+  x-api-slug: customers-post
+  description: Order a new customer's account.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/nexusae0_icon2.png
+  humanURL: https://developers.google.com/admin-sdk/
+  baseURL: https:///
+  tags: Google APIs, Applications, Documents, Licensing, SDK, Monetization, Reseller,
+    Stack Network, Resellers, API Service Provider, API Provider, Profiles, Relative
+    Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/customers/master/_listings/google-apps-admin-sdk/customers-post-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://google.app.engine.api.gallery.streamdata.io

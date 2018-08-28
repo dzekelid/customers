@@ -10,11 +10,51 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "7"
 x-alexaRank: "0"
 tags: Customers
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/customers/master/_listings/ship-station/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: Ship Station Developer Portal - List Customers
+  x-api-slug: customersstatecodestatecodecountrycodecountrycodetagidtagidmarketplaceidmarketplaceidsortbysortbysortdirsortdirpagepagepagesizepagesize-get
+  description: Obtains a list of customers that match the specified criteria.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/ShipStation-stacked-blue.png
+  humanURL: http://bit.ly/_ShipStation
+  baseURL: https://ssapi.shipstation.com//
+  tags: Shipping, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/customers/master/_listings/ship-station/customersstatecodestatecodecountrycodecountrycodetagidtagidmarketplaceidmarketplaceidsortbysortbysortdirsortdirpagepagepagesizepagesize-get-openapi.md
+- name: Ship Station Developer Portal - Get Customer
+  x-api-slug: customerscustomerid-get
+  description: ""
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/ShipStation-stacked-blue.png
+  humanURL: http://bit.ly/_ShipStation
+  baseURL: https://ssapi.shipstation.com//
+  tags: Shipping, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/customers/master/_listings/ship-station/customerscustomerid-get-openapi.md
+- name: Ship Station Developer Portal - Get Customer
+  x-api-slug: customerscustomerid-get
+  description: ""
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/ShipStation-stacked-blue.png
+  humanURL: http://bit.ly/_ShipStation
+  baseURL: https://ssapi.shipstation.com//
+  tags: Shipping, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/customers/master/_listings/ship-station/customerscustomerid-get-openapi.md
+- name: Ship Station Developer Portal - Get Customer
+  x-api-slug: customerscustomerid-get
+  description: ""
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/ShipStation-stacked-blue.png
+  humanURL: http://bit.ly/_ShipStation
+  baseURL: https://ssapi.shipstation.com//
+  tags: Shipping, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/customers/master/_listings/ship-station/customerscustomerid-get-openapi.md
 x-common:
 - type: x-website
   url: http://bit.ly/_ShipStation

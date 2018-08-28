@@ -1,4 +1,3 @@
----
 swagger: "2.0"
 x-collection-name: Bookeo
 x-complete: 1
@@ -259,4 +258,3 @@ paths:
       - Bookings
       - BookingNumber
       - Customer
----

@@ -1,4 +1,3 @@
----
 swagger: "2.0"
 x-collection-name: SAP
 x-complete: 1
@@ -17,4 +16,28 @@ produces:
 - application/json
 consumes:
 - application/json
----
+paths:
+  /collaborationRooms/{collaborationRoomId}/productionData/original/requirement:
+    put:
+      summary: Updates the customer's production option
+      description: "Updates the customer's production option.   \nThe login user must
+        be from the customer."
+      operationId: updates-the-customers-production-option---the-login-user-must-be-from-the-customer
+      x-api-path-slug: collaborationroomscollaborationroomidproductiondataoriginalrequirement-put
+      parameters:
+      - in: path
+        name: collaborationRoomId
+        description: The ID of a collaboration room
+      - in: body
+        name: ProductionDataRequirementRequest
+        description: A request about a production option
+        schema:
+          $ref: '#/definitions/holder'
+      responses:
+        200:
+          description: Successful response
+      tags:
+      - S
+      - Customers
+      - Production
+      - Option

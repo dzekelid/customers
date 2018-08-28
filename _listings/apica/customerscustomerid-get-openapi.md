@@ -6,12 +6,14 @@ info:
   title: Customers API Customers
   version: 1.0.0
   description: Returns subcustomer by subcustomer's ID.
+host: api.pingdom.com
 schemes:
 - http
 produces:
 - application/json
 consumes:
 - application/json
+basePath: /
 paths:
   '/customers/{customerId} ':
     ' get ':

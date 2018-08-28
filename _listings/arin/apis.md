@@ -9,11 +9,22 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1381-arin.
 x-kinRank: "8"
 x-alexaRank: "51791"
 tags: Customers
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/customers/master/_listings/arin/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: Customer API - Manage customers
+  x-api-slug: customers-get
+  description: ""
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1381-arin.jpg
+  humanURL: https://www.arin.net
+  baseURL: https://whois.arin.net//rest
+  tags: DNS, Registry, Infrastructure, DNS Internet, Stack Network, ISP, internet,
+    API Provider, Profiles, General Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/customers/master/_listings/arin/customers-get-openapi.md
 x-common:
 - type: x-website
   url: https://www.arin.net
